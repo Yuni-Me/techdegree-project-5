@@ -1,0 +1,60 @@
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+/* ---- Base Styles ---- */
+
+* {
+	box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, serif;
+    color: rgb(20, 20, 20);
+    line-height: 1.8;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.container {
+    max-width: 860px;
+    width: 80%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+   
+}
+.gallery {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    /* justify-content: left; */
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    /* margin: 0 auto; */
+}
+
+a {
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    box-shadow: 0 0 4px -1px rgb(175, 32, 13);
+}
+
+
+#searchInput {
+    width: 60%;
+    font-size: 16px; 
+    padding: 12px 20px; 
+    border: 1px solid #ddd; 
+    margin: 25px auto;
+    border-radius: 4px;
+}
+
+
