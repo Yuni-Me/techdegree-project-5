@@ -30,11 +30,8 @@ body {
     width: 100%;
     display: grid;
     justify-items: center;
-    /* justify-content: left; */
-
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
-    /* margin: 0 auto; */
 }
 
 a {
@@ -46,7 +43,6 @@ a {
 img:hover {
     box-shadow: 0 0 4px -1px rgb(175, 32, 13);
 }
-
 
 #searchInput {
     width: 60%;
