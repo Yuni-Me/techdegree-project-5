@@ -4,13 +4,9 @@ function filter() {
 
     for (let i = 0; i < article.length; i++) {
         if (article[i].getAttribute('data-caption').toLowerCase().includes(searchValue.toLowerCase())) {
-            article[i].style.display = 'block';
-            
+            article[i].style.display = '';
         } else {
             article[i].style.display = 'none';
-            
         }
-        
     }
-    
 }
